@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="TangleWeed/TangleWeed.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TangleWeed/JobGiver_AITangleweedDestroyer.cs">
+    <Files>
+      <File FileName="TangleWeed/JobGiver_AITangleweedDestroyer.cs" Line="66" Column="66" />
+      <File FileName="TangleWeed/TangleweedFinder.cs" Line="45" Column="45" />
+      <File FileName="TangleWeed/AttackPlantUtility.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
