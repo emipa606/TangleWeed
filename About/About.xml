@@ -1,15 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Tangle Weed (Continued)</name>
-  	<packageId>Mlie.TangleWeed</packageId>
-	<author>Mlie</author>
-	<url>https://github.com/emipa606/TangleWeed</url>
-	<supportedVersions>
-		<li>1.1</li>
-	</supportedVersions>
-	<modDependencies />
-	<loadAfter />
-	<description>Update of Arcane_Chills mod for RimWorld 1.1
+  <name>Tangle Weed (Continued)</name>
+  <packageId>Mlie.TangleWeed</packageId>
+  <author>Mlie</author>
+  <url>https://github.com/emipa606/TangleWeed</url>
+  <supportedVersions>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <modDependencies />
+  <loadAfter />
+  <description>Update of Arcane_Chills mod for RimWorld 1.1
 https://steamcommunity.com/sharedfiles/filedetails/?id=932535937
 
 [img]https://raw.githubusercontent.com/emipa606/RimWorld-Wrapper/master/Notice.png[/img]

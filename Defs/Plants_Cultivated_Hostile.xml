@@ -1,35 +1,33 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	<ThingDef ParentName="PlantBase">
-		<defName>PlantTangleWeed</defName>
-		<label>tangleweed vine</label>
-		<description>A curling, twisting thorny bush that grows like a vine.  Provides no cover, but it is very difficult to walk through.</description>
-		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
-		</statBases>
-		<graphicData>
-			<texPath>TangleWeed_Plant</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-			<linkType>Basic</linkType>
-		</graphicData>
-		<selectable>true</selectable>
-		<pathCost>50</pathCost>
-		<ingestible>
-			<preferability>NeverForNutrition</preferability>
-		</ingestible>
-		<plant>
-			<fertilitySensitivity>0.5</fertilitySensitivity>
-			<dieIfLeafless>true</dieIfLeafless>
-			<maxMeshCount>4</maxMeshCount>
-			<sowMinSkill>6</sowMinSkill>
-			<sowTags>
-				<li>Ground</li>
-			</sowTags>
-			<topWindExposure>0.1</topWindExposure>
-			<growDays>11</growDays>
-			<visualSizeRange>0.3~0.8</visualSizeRange>
-		</plant>
-	</ThingDef>
-
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantTangleWeed</defName>
+    <label>tangleweed vine</label>
+    <description>A curling, twisting thorny bush that grows like a vine.  Provides no cover, but it is very difficult to walk through.</description>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+    </statBases>
+    <graphicData>
+      <texPath>TangleWeed_Plant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <linkType>Basic</linkType>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>50</pathCost>
+    <ingestible>
+      <preferability>NeverForNutrition</preferability>
+    </ingestible>
+    <plant>
+      <fertilitySensitivity>0.5</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <maxMeshCount>4</maxMeshCount>
+      <sowMinSkill>6</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>11</growDays>
+      <visualSizeRange>0.3~0.8</visualSizeRange>
+    </plant>
+  </ThingDef>
 </Defs>
