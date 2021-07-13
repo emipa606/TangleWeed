@@ -1,7 +1,4 @@
-﻿using RimWorld;
-using System;
-using System.Collections.Generic;
-using Verse;
+﻿using Verse;
 using Verse.AI;
 
 namespace TangleWeed.AI
@@ -16,29 +13,40 @@ namespace TangleWeed.AI
                 cellBefore = IntVec3.Invalid;
                 return null;
             }
-            List<IntVec3> nodesReversed = path.NodesReversed;
+
+            var nodesReversed = path.NodesReversed;
             if (nodesReversed.Count == 1)
             {
                 cellBefore = nodesReversed[0];
                 return null;
             }
-            IntVec3 vector = IntVec3.Invalid;
 
-            for (int i = nodesReversed.Count - 2; i >= 1; i--)
+            var unused = IntVec3.Invalid;
+
+            for (var i = nodesReversed.Count - 2; i >= 1; i--)
             {
-                Plant plant = nodesReversed[i].GetPlant(pawn.Map);
-                if (plant != null)
+                if (pawn == null)
                 {
-                    if (plant.Label == "tangleweed vine")
-                    {
-                        cellBefore = nodesReversed[i + 1]; ;
-                        return plant;
-                    }
+                    continue;
                 }
+
+                var plant = nodesReversed[i].GetPlant(pawn.Map);
+                if (plant == null)
+                {
+                    continue;
+                }
+
+                if (plant.Label != "tangleweed vine")
+                {
+                    continue;
+                }
+
+                cellBefore = nodesReversed[i + 1];
+                return plant;
             }
+
             cellBefore = nodesReversed[0];
             return null;
         }
     }
 }
-

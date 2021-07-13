@@ -1,7 +1,6 @@
-﻿using System;
+﻿using RimWorld;
 using Verse;
 using Verse.AI;
-using RimWorld;
 
 namespace TangleWeed
 {
@@ -19,15 +18,15 @@ namespace TangleWeed
 
         private static void FinalizeTrashJob(Job job)
         {
-            job.expiryInterval = AttackPlantUtility.TrashJobCheckOverrideInterval.RandomInRange;
+            job.expiryInterval = TrashJobCheckOverrideInterval.RandomInRange;
             job.checkOverrideOnExpire = true;
             job.expireRequiresEnemiesNearby = true;
         }
 
         public static Job AttackPlant(Pawn pawn, Thing t)
         {
-            Job job = new Job(JobDefOf.Ignite, t);
-            AttackPlantUtility.FinalizeTrashJob(job);
+            var job = new Job(JobDefOf.Ignite, t);
+            FinalizeTrashJob(job);
             return job;
         }
     }
