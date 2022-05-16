@@ -1,26 +1,17 @@
 # TangleWeed
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Arcane_Chills mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=932535937
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/TangleWeed]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
-This mod adds a new plant called &quot;Tangleweed vine&quot; which is very difficult to walk through.  It takes longer to grow than food crops, but not quite as long as trees.
+This mod adds a new plant called "Tangleweed vine" which is very difficult to walk through.  It takes longer to grow than food crops, but not quite as long as trees.
 
     The idea is to use it defensively, to either:
 
@@ -31,7 +22,7 @@ This mod adds a new plant called &quot;Tangleweed vine&quot; which is very diffi
     Feedback is welcome!!
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 

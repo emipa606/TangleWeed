@@ -10,7 +10,7 @@
     <graphicData>
       <texPath>TangleWeed_Plant</texPath>
       <graphicClass>Graphic_Random</graphicClass>
-      <linkType>Basic</linkType>
+      <!-- <linkType>Basic</linkType> -->
     </graphicData>
     <selectable>true</selectable>
     <pathCost>50</pathCost>

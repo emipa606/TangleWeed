@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Tangle Weed (Continued)</name>
   <packageId>Mlie.TangleWeed</packageId>
@@ -11,11 +11,11 @@
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Arcane_Chills mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=932535937
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
 	[tr]
@@ -24,9 +24,9 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=932535937
 	[/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 
-This mod adds a new plant called &quot;Tangleweed vine&quot; which is very difficult to walk through.  It takes longer to grow than food crops, but not quite as long as trees.
+This mod adds a new plant called "Tangleweed vine" which is very difficult to walk through.  It takes longer to grow than food crops, but not quite as long as trees.
 
     The idea is to use it defensively, to either:
 
@@ -37,7 +37,7 @@ This mod adds a new plant called &quot;Tangleweed vine&quot; which is very diffi
     Feedback is welcome!!
 
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -48,4 +48,3 @@ This mod adds a new plant called &quot;Tangleweed vine&quot; which is very diffi
 [/list]
 </description>
 </ModMetaData>
-
