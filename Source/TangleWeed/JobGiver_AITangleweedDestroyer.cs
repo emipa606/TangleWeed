@@ -14,7 +14,7 @@ public class JobGiver_AITangleweedDestroyer : ThinkNode_JobGiver
     {
         var vector = (IntVec3)pawn.mindState.duty.focus;
         if (vector.IsValid && (float)vector.DistanceToSquared(pawn.Position) < 100 &&
-            vector.GetRoomOrAdjacent(pawn.Map) == pawn.GetRoom(RegionType.Set_Passable) &&
+            vector.GetRoomOrAdjacent(pawn.Map) == pawn.GetRoom() &&
             vector.WithinRegions(pawn.Position, pawn.Map, 9, TraverseMode.NoPassClosedDoors))
         {
             pawn.GetLord().Notify_ReachedDutyLocation(pawn);

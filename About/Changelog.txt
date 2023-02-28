@@ -1,5 +1,8 @@
 # Changelog for TangleWeed
 
+1.4.2 - For some reason the assemblies were in the wrong path since way back. Fixed all versions now
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests
 
 
