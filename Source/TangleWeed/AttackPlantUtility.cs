@@ -23,7 +23,7 @@ internal static class AttackPlantUtility
         job.expireRequiresEnemiesNearby = true;
     }
 
-    public static Job AttackPlant(Pawn pawn, Thing t)
+    public static Job AttackPlant(Thing t)
     {
         var job = new Job(JobDefOf.Ignite, t);
         FinalizeTrashJob(job);
