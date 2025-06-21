@@ -40,7 +40,7 @@ public class JobGiver_AITangleweedDestroyer : ThinkNode_JobGiver
             return null;
         }
 
-        using (var pawnPath = pawn.Map.pathFinder.FindPath(pawn.Position, vector,
+        using (var pawnPath = pawn.Map.pathFinder.FindPathNow(pawn.Position, vector,
                    TraverseParms.For(pawn, Danger.Deadly, TraverseMode.PassAllDestroyableThings)))
         {
             var thing = pawnPath.FirstTangleweed(pawn);
