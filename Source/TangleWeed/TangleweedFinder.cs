@@ -19,8 +19,6 @@ public static class TangleweedFinder
             return null;
         }
 
-        _ = IntVec3.Invalid;
-
         for (var i = nodesReversed.Count - 2; i >= 1; i--)
         {
             if (pawn == null)
@@ -34,7 +32,7 @@ public static class TangleweedFinder
                 continue;
             }
 
-            if (plant.Label != "tangleweed vine")
+            if (plant.def.defName != "PlantTangleWeed")
             {
                 continue;
             }
